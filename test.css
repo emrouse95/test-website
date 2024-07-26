@@ -1,28 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *{
-    font-family: Poppins, sans-serif;
+    font-family: "Poppins", sans-serif;
+    
 }
 body {
-    background: linear-gradient(#6b6b6b, #fff) ;
+    background: url(library.webp) no-repeat;
+    background-attachment: fixed;
     text-align: center;
     font-family: Poppins, sans-serif;
-h1 {
-    font-family: Aachen
-}
+
 .bookpicture {
     opacity: 50%;
 }
+
+h1 {
+    color: white;
+}
 .about {
     margin: 50px;
-    font-size: larger;
     width: 700px;
     text-align: left;
     display: inline-block;
-    margin-top: 50px;
-    margin-bottom: 5px;
+    padding: 50px;
     font-size: 18px;
-    height: 120px;   
-
-
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(120px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
 }
 li {
     list-style: none;
@@ -39,15 +46,23 @@ li {
 .who {
     font-weight: bolder;
     font-size: 26px;
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
 }   
 }
 .join {
+    margin: 50px;
+    width: 700px;
+    text-align: left;
     display: inline-block;
-    margin-top: 200px;
-    margin-bottom: 100px;
+    padding: 50px;
     font-size: 18px;
-    width: 500px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(120px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
+
 }
 .sign-up {
     margin-bottom: 500px
@@ -62,20 +77,32 @@ li {
     font-size: 18px;
 }
 fieldset {
-    background-color: rgb(255, 255, 255);
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(120px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
 }
 .faq {
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(120px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    border-radius: 10px;
     width: 25%;
-    display:inline-block;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size:large;
 }
 .faq-questions {
-    text-align: ;
+    text-align: center;
 }
 .nav-link {
-    color: black;
+    color: rgb(255, 255, 255);
     font-weight: bolder;
+    font-size: larger;
 }
 .book-img {
     width: 90px
@@ -90,13 +117,14 @@ fieldset {
 }
 .navbar {
     list-style-type: none;
-    margin: 50px;
+    margin: 50px    ;
     padding: 50px;
 }
 nav > ul > li:hover {
     cursor: pointer;
-    transform: scale(1.2);
-    transition: transform 1s ease-in-out 0ms;
+    border: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    border-radius: 10px;
 }
 nav > ul {
     display: flex;
@@ -106,6 +134,7 @@ nav > ul {
     padding-inline-start: 0;
     margin-block: 0;
     height: 100%;
+    background: transparent;
 }
 a {
     text-decoration: none;
